@@ -1,0 +1,75 @@
+@media screen and (min-width: 1366px) and (max-width: 1366px) {
+    #side_nav {
+    position: fixed;
+    min-height: 200vh;
+    z-index: 2;
+    }
+    .content{
+        margin-left: 250px;
+    }
+
+    .dashboard {
+        margin-top: 80px;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    .sticky {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+
+    .card {
+        width: 9.2rem;
+        height: 128px;
+        box-shadow: #000;
+    }
+
+    .keci {
+        display: block; 
+        top: 0; 
+        right: 0; 
+        position: absolute; 
+        z-index: 1; 
+        opacity: 0.5;
+        margin-top: -3px;
+        width: 88%;
+    }
+
+    .wil {
+        display: block; 
+        top: 12px; 
+        bottom: 3px; 
+        right: 0; 
+        position: absolute; 
+        z-index: 1; 
+        opacity: 0.4;
+    }
+
+    .pend {
+        display: block; 
+        top: -2px; 
+        bottom: 3px; 
+        right: 0; 
+        position: absolute; 
+        z-index: 1; 
+        opacity: 0.5;
+    }
+
+    .card-title{
+        margin-top: 10px;
+        font-size: 17.5px;
+    }
+
+    }
